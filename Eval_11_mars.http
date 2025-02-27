@@ -1,0 +1,6 @@
+@Eval_11_mars_HostAddress = http://localhost:5266
+
+GET {{Eval_11_mars_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

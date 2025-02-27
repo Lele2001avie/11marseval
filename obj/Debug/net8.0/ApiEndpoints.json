@@ -1,0 +1,250 @@
+[
+  {
+    "ContainingType": "Eval_11_mars.Controllers.MusiqueDatacontrol",
+    "Method": "DeleteArtisteinfo",
+    "RelativePath": "api/MusiqueDatacontrol/DeleteArtisteinfo/{IdArtiste}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdArtiste",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Net.HttpStatusCode",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Eval_11_mars.Controllers.MusiqueDatacontrol",
+    "Method": "DeleteMusique",
+    "RelativePath": "api/MusiqueDatacontrol/DeleteMusique/{IdArtiste}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IdArtiste",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Net.HttpStatusCode",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Eval_11_mars.Controllers.MusiqueDatacontrol",
+    "Method": "GetArtisteinfo",
+    "RelativePath": "api/MusiqueDatacontrol/GetArtisteinfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Eval_11_mars.Entities.Artisteinfo, Eval_11_mars, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Eval_11_mars.Controllers.MusiqueDatacontrol",
+    "Method": "GetArtisteinfobyid",
+    "RelativePath": "api/MusiqueDatacontrol/GetArtisteinfobyid",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idArtiste",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Eval_11_mars.Entities.Artisteinfo",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Eval_11_mars.Controllers.MusiqueDatacontrol",
+    "Method": "Get",
+    "RelativePath": "api/MusiqueDatacontrol/GetMusique",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Eval_11_mars.Entities.MusiqueDTO, Eval_11_mars, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Eval_11_mars.Controllers.MusiqueDatacontrol",
+    "Method": "GetMusiquebyid",
+    "RelativePath": "api/MusiqueDatacontrol/GetMusiquebyid",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idArtiste",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Eval_11_mars.Entities.MusiqueDTO",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Eval_11_mars.Controllers.MusiqueDatacontrol",
+    "Method": "InsertArtisteinfo",
+    "RelativePath": "api/MusiqueDatacontrol/InsertArtisteinfo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "artisteinfo",
+        "Type": "Eval_11_mars.Entities.ArtisteinfoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Net.HttpStatusCode",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Eval_11_mars.Controllers.MusiqueDatacontrol",
+    "Method": "InsertUser",
+    "RelativePath": "api/MusiqueDatacontrol/InsertMusique",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Musique",
+        "Type": "Eval_11_mars.Entities.MusiqueDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Net.HttpStatusCode",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Eval_11_mars.Controllers.MusiqueDatacontrol",
+    "Method": "UpdateArtisteinfo",
+    "RelativePath": "api/MusiqueDatacontrol/UpdateArtisteinfo",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "artisteinfo",
+        "Type": "Eval_11_mars.Entities.ArtisteinfoDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Net.HttpStatusCode",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Eval_11_mars.Controllers.MusiqueDatacontrol",
+    "Method": "UpdateMusique",
+    "RelativePath": "api/MusiqueDatacontrol/UpdateMusique",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Musique",
+        "Type": "Eval_11_mars.Entities.MusiqueDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Net.HttpStatusCode",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
